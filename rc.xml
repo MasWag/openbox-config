@@ -338,9 +338,9 @@
     <action name="Execute">
       <startupnotify>
         <enabled>true</enabled>
-        <name>gnome-terminal</name>
+        <name>lxterminal</name>
       </startupnotify>
-      <command>gnome-terminal</command>
+      <command>lxterminal</command>
     </action>
   </keybind>
   <keybind key="W-C">

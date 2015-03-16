@@ -19,7 +19,11 @@
 xrdb ~/.Xresources
 source ~/.xprofile
 tint2 &
+synclient  TapButton1=0
+synclient  TapButton2=0
+synclient  TapButton3=0
 (sleep 1 && ibus-daemon -drx)
 (sleep 3 && skype)
+(sleep 3 && sdiskie) &
 (sleep 4 && gnome-keyring-daemon -d)
 (sleep 5 && nm-applet) &
