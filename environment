@@ -9,6 +9,12 @@
 # To set your keyboard layout, you need to modify your X config:
 # http://www.google.com/search?q=how+to+set+keyboard+layout+xorg
 
+# launches a session dbus instance
+if [ -z "${DBUS_SESSION_BUS_ADDRESS-}" ] && type dbus-launch >/dev/null; then
+  eval $(dbus-launch --sh-syntax --exit-with-session)
+fi
+eval $(gnome-keyring-daemon --start);
+export SSH_AUTH_SOCK;
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
