@@ -370,6 +370,18 @@
     </action>
   </keybind>
 
+  <!-- keybindings for Display blightness -->
+  <keybind key="XF86MonBrightnessDown">
+    <action name="Execute">
+        <command>/home/calros/bin/setblightness - 10</command>
+    </action>
+  </keybind>
+  <keybind key="XF86MonBrightnessUp">
+    <action name="Execute">
+        <command>/home/calros/bin/setblightness + 10</command>
+    </action>
+  </keybind>
+
   <!-- keybindings for Window -->
   <keybind key="W-Left">
     <action name="UnmaximizeFull"/>
