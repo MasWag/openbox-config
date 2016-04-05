@@ -417,6 +417,13 @@
         <command>gmrun</command>
     </action>
   </keybind>
+
+  <!--keybind for shutdown -->
+  <keybind key="XF86PowerOff">
+    <action name="Execute">
+        <command>/home/calros/bin/poweroff</command>
+    </action>
+  </keybind>
 </keyboard>
 
 <mouse>
