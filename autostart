@@ -22,8 +22,10 @@ tint2 &
 synclient  TapButton1=0
 synclient  TapButton2=0
 synclient  TapButton3=0
-(sleep 1 && ibus-daemon -drx)
+rm -f ~/.config/Slack/SS
+#~/bin/start_xmrig.sh &
+#(sleep 1 && ibus-daemon -drx)
 #(sleep 4 && gnome-keyring-daemon -d)
-(sleep 5 && nm-applet) &
+#(sleep 5 && nm-applet) &
 (sleep 20 && slack) &
 #(sleep 20 && pidgin) &
