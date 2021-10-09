@@ -28,4 +28,4 @@ rm -f ~/.config/Slack/SS
 #(sleep 4 && gnome-keyring-daemon -d)
 #(sleep 5 && nm-applet) &
 (sleep 20 && slack) &
-#(sleep 20 && pidgin) &
+(sleep 20 && bluetoothctl connect 00:42:79:7B:FA:19) &
