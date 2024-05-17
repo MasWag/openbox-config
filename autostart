@@ -22,6 +22,8 @@ tint2 &
 synclient  TapButton1=0
 synclient  TapButton2=0
 synclient  TapButton3=0
+# Stop the touch pad when I type something
+syndaemon -i 0.5 -R &
 rm -f ~/.config/Slack/SS
 #~/bin/start_xmrig.sh &
 #(sleep 1 && ibus-daemon -drx)
