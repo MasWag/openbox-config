@@ -31,3 +31,4 @@ rm -f ~/.config/Slack/SS
 #(sleep 5 && nm-applet) &
 (sleep 20 && slack) &
 (sleep 20 && bluetoothctl connect 00:42:79:7B:FA:19) &
+xrandr --output eDP-1 --mode 1920x1080
