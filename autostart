@@ -4,7 +4,6 @@
 # You may place a similar script in $HOME/.config/openbox/autostart
 # to run user-specific things.
 #
-
 # If you want to use GNOME config tools...
 #
 #if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
@@ -23,6 +22,9 @@ tint2 &
 synclient  TapButton1=0
 synclient  TapButton2=0
 synclient  TapButton3=0
+# Natural scrolling
+synclient VertScrollDelta=-86
+synclient HorizScrollDelta=-86
 # Stop the touch pad when I type something
 syndaemon -i 0.5 -R &
 rm -f ~/.config/Slack/SS
