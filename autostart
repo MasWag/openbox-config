@@ -17,7 +17,7 @@
 #xfce-mcs-manager &
 
 xrdb ~/.Xresources
-source ~/.xprofile
+. ~/.xprofile
 tint2 &
 synclient  TapButton1=0
 synclient  TapButton2=0
