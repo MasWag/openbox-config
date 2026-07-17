@@ -367,15 +367,15 @@
         <command>lxterminal</command>
       </action>
     </keybind>
-    <keybind key="W-C">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>google-chrome-stable</name>
-        </startupnotify>
-        <command>google-chrome-stable</command>
-      </action>
-    </keybind>
+    <!-- <keybind key="W-C"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <startupnotify> -->
+    <!--       <enabled>true</enabled> -->
+    <!--       <name>google-chrome-stable</name> -->
+    <!--     </startupnotify> -->
+    <!--     <command>google-chrome-stable</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
     <keybind key="W-B">
       <action name="Execute">
         <startupnotify>
